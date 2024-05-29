@@ -1,0 +1,84 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="58">
+            <item index="0" class="java.lang.String" itemvalue="tesserocr" />
+            <item index="1" class="java.lang.String" itemvalue="wasabi" />
+            <item index="2" class="java.lang.String" itemvalue="isodate" />
+            <item index="3" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="4" class="java.lang.String" itemvalue="ariadne" />
+            <item index="5" class="java.lang.String" itemvalue="cffi" />
+            <item index="6" class="java.lang.String" itemvalue="numpy" />
+            <item index="7" class="java.lang.String" itemvalue="flake8" />
+            <item index="8" class="java.lang.String" itemvalue="preshed" />
+            <item index="9" class="java.lang.String" itemvalue="certifi" />
+            <item index="10" class="java.lang.String" itemvalue="lxml" />
+            <item index="11" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="12" class="java.lang.String" itemvalue="databricks-cli" />
+            <item index="13" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="14" class="java.lang.String" itemvalue="papermill" />
+            <item index="15" class="java.lang.String" itemvalue="aiofiles" />
+            <item index="16" class="java.lang.String" itemvalue="black" />
+            <item index="17" class="java.lang.String" itemvalue="plotly" />
+            <item index="18" class="java.lang.String" itemvalue="prometheus-flask-exporter" />
+            <item index="19" class="java.lang.String" itemvalue="pandas" />
+            <item index="20" class="java.lang.String" itemvalue="cymem" />
+            <item index="21" class="java.lang.String" itemvalue="azure-storage-blob" />
+            <item index="22" class="java.lang.String" itemvalue="flask-session" />
+            <item index="23" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="24" class="java.lang.String" itemvalue="murmurhash" />
+            <item index="25" class="java.lang.String" itemvalue="pytz" />
+            <item index="26" class="java.lang.String" itemvalue="azure-core" />
+            <item index="27" class="java.lang.String" itemvalue="pycparser" />
+            <item index="28" class="java.lang.String" itemvalue="elastic-apm" />
+            <item index="29" class="java.lang.String" itemvalue="flask" />
+            <item index="30" class="java.lang.String" itemvalue="cx-Oracle" />
+            <item index="31" class="java.lang.String" itemvalue="locust" />
+            <item index="32" class="java.lang.String" itemvalue="httpx" />
+            <item index="33" class="java.lang.String" itemvalue="protobuf" />
+            <item index="34" class="java.lang.String" itemvalue="joblib" />
+            <item index="35" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="36" class="java.lang.String" itemvalue="flatten-dict" />
+            <item index="37" class="java.lang.String" itemvalue="pyxlsb" />
+            <item index="38" class="java.lang.String" itemvalue="redis" />
+            <item index="39" class="java.lang.String" itemvalue="wbdata" />
+            <item index="40" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="41" class="java.lang.String" itemvalue="pycountry" />
+            <item index="42" class="java.lang.String" itemvalue="xgboost" />
+            <item index="43" class="java.lang.String" itemvalue="optuna" />
+            <item index="44" class="java.lang.String" itemvalue="phonenumbers" />
+            <item index="45" class="java.lang.String" itemvalue="requests-ntlm" />
+            <item index="46" class="java.lang.String" itemvalue="xlsxwriter" />
+            <item index="47" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="48" class="java.lang.String" itemvalue="loguru" />
+            <item index="49" class="java.lang.String" itemvalue="click" />
+            <item index="50" class="java.lang.String" itemvalue="psutil" />
+            <item index="51" class="java.lang.String" itemvalue="teradatasql" />
+            <item index="52" class="java.lang.String" itemvalue="mlflow" />
+            <item index="53" class="java.lang.String" itemvalue="fastapi" />
+            <item index="54" class="java.lang.String" itemvalue="shareplum" />
+            <item index="55" class="java.lang.String" itemvalue="aioredis" />
+            <item index="56" class="java.lang.String" itemvalue="python-snappy" />
+            <item index="57" class="java.lang.String" itemvalue="openpyxl" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E202" />
+          <option value="E201" />
+          <option value="E266" />
+          <option value="E701" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

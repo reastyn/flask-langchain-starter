@@ -4,20 +4,16 @@ from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import HumanMessage
 from flask import Flask
 from dotenv import load_dotenv
+from flask import request
 
 load_dotenv('..')
 
 app = Flask(__name__)
 
-model = AzureChatOpenAI(
-    api_version="2023-12-01-preview",
-    deployment_name="gpt-35-turbo-1106"
-)
 
-@app.route("/")
+@app.route("/chat", methods=["POST"])
 def hello_world():
-    message = HumanMessage(
-        content="Say hello world as a pirate"
-    )
-    response = model.invoke([message])
-    return response.content
+    req_json = request.get_json()
+    messages = req_json["messages"]
+    messages.append({"message": "test", "type": "assistant"})
+    return messages

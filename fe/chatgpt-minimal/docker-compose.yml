@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  chatgpt-minimal:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - URL=http://10.69.12.71:5000/chat
